@@ -15,7 +15,7 @@ export function Input({ label, placeholder, keyboardType = "default", value, onC
 
     return (
         <View className="mb-4">
-            <Text className="text-sm font-semibold text-gray-darker mb-2">{label}</Text>
+            <Text className="text-sm font-semibold text-secondary-dark mb-2">{label}</Text>
             <TextInput
                 placeholder={placeholder}
                 keyboardType={keyboardType}
@@ -23,7 +23,7 @@ export function Input({ label, placeholder, keyboardType = "default", value, onC
                 onChangeText={onChangeText}
                 onFocus={() => setIsFocused(true)}
                 onBlur={() => setIsFocused(false)}
-                className={`border ${isFocused ? "border-primary-dark" : "border-gray"} rounded-2xl py-4 px-2 ${className}`}
+                className={`border ${isFocused ? "border-primary-dark" : "border-secondary"} rounded-2xl py-4 px-2 ${className}`}
             />
         </View>
     );

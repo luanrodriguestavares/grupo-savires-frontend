@@ -8,11 +8,11 @@ module.exports = {
                 'primary': '#16a34a',
                 'primary-dark': '#15803d',
 
-                'secondary': '#F3F4F6',
+                'background': '#F3F4F6',
 
-                'gray': '#9CA3AF',
-                'gray-dark': '#3C4C63',
-                'gray-darker': '#374151',
+                'secondary': '#9CA3AF',
+                'secondary-dark': '#3C4C63',
+                'secondary-darker': '#374151',
             },
         },
     },

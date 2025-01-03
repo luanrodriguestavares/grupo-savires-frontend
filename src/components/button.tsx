@@ -13,14 +13,12 @@ export const Button: React.FC<ButtonProps> = ({ onClick, text, variant = "primar
     const baseStyle = "mt-8 py-4 rounded-2xl";
     const variantStyles = {
         primary: pressed ? "bg-primary-dark" : "bg-primary",
-        secondary: pressed
-            ? "bg-transparent border-2 border-gray-dark"
-            : "bg-transparent border-2 border-gray",
+        secondary: pressed ? "bg-secondary-darker" : "bg-secondary",
     };
 
     const textStyles = {
         primary: "text-white",
-        secondary: pressed ? "text-gray-dark" : "text-gray",
+        secondary: pressed ? "text-secondary-dark" : "text-secondary-darker",
     };
 
     return (
@@ -36,4 +34,3 @@ export const Button: React.FC<ButtonProps> = ({ onClick, text, variant = "primar
         </Pressable>
     );
 };
-
