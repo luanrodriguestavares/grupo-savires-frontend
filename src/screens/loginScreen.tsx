@@ -17,7 +17,7 @@ export default function LoginScreen() {
 					className="h-20 w-20"
 				/>
 			</View>
-			<View className="bg-background h-4/5 rounded-t-3xl px-6 pt-12">
+			<View className="bg-white h-4/5 rounded-t-3xl px-6 pt-12">
 				<Text className="text-2xl font-bold text-center text-gray-darker">
 					Bem-vindo de volta
 				</Text>
