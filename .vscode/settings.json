@@ -1,0 +1,28 @@
+{
+    // Arquivos ignorados
+    "files.exclude": {
+        "expo-env.d.ts": true,
+        "metro.config.js": true,
+        "babel.config.js": true,
+        "tsconfig.json": true,
+        "yarn.lock": true,
+        //"package-lock.json": true,
+        //"node_modules": true,
+        ".expo": true,
+        ".gitignore": true,
+        "nativewind-env.d.ts": true
+    },
+    // Configurações do editor
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+        "source.fixAll": "explicit",
+        "source.fixAll.eslint": "explicit"
+    },
+    "eslint.validate": [
+        "javascript",
+        "javascriptreact",
+        "typescript",
+        "typescriptreact"
+    ],
+    "prettier.requireConfig": true
+}

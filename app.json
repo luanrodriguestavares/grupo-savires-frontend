@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "GrupoSavires",
+    "name": "Grupo Savires",
     "slug": "GrupoSavires",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -13,8 +13,8 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/images/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
+        "foregroundImage": "./assets/images/splash-icon.png",
+        "backgroundColor": "#16A34A"
       }
     },
     "web": {
@@ -30,7 +30,7 @@
           "image": "./assets/images/splash-icon.png",
           "imageWidth": 200,
           "resizeMode": "contain",
-          "backgroundColor": "#ffffff"
+          "backgroundColor": "#16A34A"
         }
       ]
     ],
