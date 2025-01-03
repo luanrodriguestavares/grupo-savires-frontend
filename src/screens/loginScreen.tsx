@@ -30,12 +30,14 @@ export default function LoginScreen() {
 					value={phoneNumber}
 					onChangeText={setPhoneNumber}
 					keyboardType="phone-pad"
+					mask="phone"
 				/>
 				<Input
 					label="Senha"
-					placeholder="************"
+					placeholder="********"
 					value={password}
 					onChangeText={setPassword}
+					secureTextEntry={true}
 				/>
 				<Button
 					onClick={() => console.log("lógica para o login")}
